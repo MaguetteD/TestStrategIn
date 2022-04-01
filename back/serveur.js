@@ -164,5 +164,4 @@ app.get('/deconnexion', (req, response)=>{
 app.listen(4000,()=> {
     console.log('connecté');
 })
-//const route=require('./route/route');
-//app.use("/route",route);
+
