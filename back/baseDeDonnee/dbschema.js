@@ -1,4 +1,4 @@
-const { default: mongoose } = require("mongoose")
+import { default as mongoose } from "mongoose";
 const userSchemas= new mongoose.Schema({
     email:{
         type:String,
@@ -12,5 +12,4 @@ const userSchemas= new mongoose.Schema({
     }
 })
 const modeleUser=mongoose.model("userSchemas",userSchemas);
-module.exports=userSchemas;
-module.exports=modeleUser;
+export default modeleUser;
